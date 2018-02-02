@@ -1,28 +1,4 @@
 $(document).ready( function () {
-	//Activates as user begins scrolling through the div
-	// $(".gifs").hover(function () {
-	// 	//displays hidden div element & content 
-	// 	$(".gifs").css("display", "show")
-	// 	console.log("I am working")
-	// 	//images animate from the left to center of screen
-	// 	$(".1").animate( {
-	// 				left: '250px'
-	// 			}, 1500);
-	// 	for (var i = 1; i <= 4; i++) {
-	// 		if (i % 2 === 0) {
-	// 			$('.' + i).animate( {
-	// 				left: '250px'
-	// 			}, 1500);
-	// 		} else {
-		//images animte from the right to center of screen
-	// 			$('.' + i).animate( {
-	// 				right: '250px'
-	// 			}, 1500);
-	// 		}
-	// 	};
-	// });
-	//^^^^None of this shit works^^^^
-
 
 	//Adds a numerical class name to every img element in a document, so as to manipulate them easier later. I chose to just add them manually however, since I was dealing with such a small number of gifs on each page.
 	function addClass() {
